@@ -213,10 +213,10 @@ h3 {
 		height: 365px;
 		width: 335px;
 		padding: 20px 35px;
-		/* background: #191919; */
+		background: #191919;
 		border-radius: 20px;
 		margin: 15px;
-		/* position: relative; */
+		position: relative;
 		overflow: hidden;
 		text-align: center;
 	}
