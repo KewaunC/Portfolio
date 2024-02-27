@@ -6,7 +6,9 @@
 	scroll-behavior: smooth;
 	  scroll-padding: 3.5rem;
   }
-  
+  body{
+	background-image: url("./Under Construction.jpg");
+  }
   nav {
 	background-color: #333;
 	padding: 10px 40px;
