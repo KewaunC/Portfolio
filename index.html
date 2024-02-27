@@ -1,163 +1,144 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-	<title>Hi I'm Kewaun Cain</title>
-	<link rel="stylesheet" type="text/css" href="css/style.css">
-	<script src="https://kit.fontawesome.com/66544abedc.js" crossorigin="anonymous"></script>
-	<link rel="preconnect" href="https://fonts.gstatic.com">
-
-
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kewaun Cain's Portofolio</title>
+    <script src="https://kit.fontawesome.com/66544abedc.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-	<!----hero Section start---->
+    
 
-	<div class="hero">
-		<nav>
-			<h2 class="logo">Portfo<span>lio</span></h2>
-			<ul>
-				<li><a href="#home">Home</a></li>
-				<li><a href="#about">About Me</a></li>
-				<li><a href="#portfolio">Portfolio</a></li>
-				<!-- <li><a href="#skills">Skills</a></li> -->
-				<li><a href="#contact">Contact Me</a></li>
-			</ul>
-	</nav>
-					<div class="content" id="home">
-			<div class="intro">
-			<h4>Hello, my name is</h4>
-			<h1>Kewaun <span>Cain</span></h1>
-			<h3>I am a Software Engineer.</h3>
-		</div>
-			<!-- <img src="img/Headshot.jpeg" alt="" srcset=""> -->		
-			<div class="photo">
-				<img src="img/KCAIN PIC.png" alt="">
-			</div>
-		
-		
-</div>
-</div>
+    <nav>
+        <div class="logo">Kewaun Cain</div>
+        <div class="menu-toggle">
+          <div class="hamburger"></div>
+          <div class="hamburger"></div>
+          <div class="hamburger"></div>
+        </div>
+        <ul class="menu">
+          <li><a href="#aboutMe">About Me</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#certifications">Certifications</a></li>
+          <li><a href="#badges">Badges</a></li>
+          <li><a href="#contact">Contact Me</a></li>
+        </ul>
+      </nav>
+      
+ 
+      
+      <section id="aboutMe">
+        <h2>About Me</h2>
+        <div class="summary">
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex laudantium quo molestias perspiciatis repellat in doloremque quis veritatis, eos labore cumque tempore commodi facere quidem tenetur magni at autem ipsa!
+          </p>
+          <img src="./img/KCAIN PIC.png" alt="Profile Picture">
+        </div>
+      </section>
 
+      <section id="portfolio">
+        <h2>Portfolio</h2>
+        <div class="card-container">
+          <div class="card">
+            <a href="https://sparkly-pasca-2d7575.netlify.app/" target="_blank">
+              <img src="./img/pokemonProject.png" alt="Pokemon Project">
+            </a>
+            <div class="card-content">
+              <!-- <i class="fas fa-code"></i> -->
+              <p>Pokemon Project that uses 2 API's</p>
+            </div>
+          </div>
+          <div class="card">
+            <a href="https://melodic-eclair-04cac9.netlify.app/" target="_blank">
+              <img src="./img/weatherProject.png" alt="Weather Project ">
+            </a>
+            <div class="card-content">
+              <!-- <i class="fas fa-code"></i> -->
+              <p>Weather App</p>
+            </div>
+          </div>
+          <div class="card">
+            <a href="https://dashing-puppy-ebe633.netlify.app/" target="_blank">
+              <img src="img/dogProject.png" alt="Dog Project ">
+            </a>
+            <div class="card-content">
+              <!-- <i class="fas fa-code"></i> -->
+              <p>Created this Dog App incase you just needed some dopamine</p>
+            </div>
+          </div>
+          <!-- Add more cards as needed -->
+        </div>
+      </section>
+      
 
-	<!----About section start---->  
+     
+      <section id="certifications">
+        <h2>Certifications</h2>
+        <div class="card-container">
+        
+        <div class="card">        
+            <img src="./img/KewaunCain-Per Scholas Linu-certificate-1.png" alt="Project 1">   
+            <p>Linux Certification</p>
+              
+        </div>
+        
+        <div class="card">         
+            <img src="./img/GCF Cert-1.png" alt="Project 1">    
+            <p>GCF Computer Basics</p>
+             
+        </div>
+        </div>  
+      </section>
 
+      <section id="badges">
+        <h2>Badges</h2>
+        <div class="card-container">
+        <div class="card">        
+          <img src="./img/introductionToCyberSecurity.png" alt="Badge 1">   
+          <p>Knowledge in Cyber Secuirty</p>         
+        </div>   
+        <div class="card">        
+          <img src="./img/networkingBasics.png" alt="Badge 1">   
+          <p>Networking Basics</p>         
+        </div>   
+      </div>
+      </section>
 
-	<section class="about" id="about">
-		<div class="main">
-			<img src="img/PFP.png">
-			
-			<div class="about-text">
-				<h2>About Me</h2>
-				<h5>Software <span>Engineer</span></h5>
-				<p>I am a Software Engineer at Resilient Coders who wishes to connect with you and work on a project that you wish to bring to life. I pride myself as both Teacher and Student because I love to teach but I love to learn! </p>
-				
-			
-		</d</div>iv>
-	</section>
+      <section id="skills">
+        <h2>Experience with these technologies</h2>
+        <div class="card-container">
+          <div class="card">            
+            <img src="./img/htmlcssjs.jpg" alt="Front-End" class="skill-image">    
+          </div>
+          <div class="card">            
+            <img src="./img/nodejs.png" alt="CSS" class="skill-image">    
+          </div>
+          <div class="card">            
+            <img src="./img/Cisco-Packet-Tracer.png" alt="Cisco Package Manager" class="skill-image">    
+          </div>
+          <div class="card">            
+            <img src="./img/githubLogo.png" alt="github" class="skill-image">    
+          </div>
+        </div>
+      </section>
+      
 
-	<!-----portfolio section start----------->
-	<div class="portfolio" id="portfolio">
-		<div class="title">
-			<h2>Portfolio</h2>
-		</div>
-		<div class="box">
-			<div class="card">
-				<i class="fa-solid fa-database"></i>
-				
-				<h5>Pokemon Database</h5>
-				<div class="pra">
-					<p>Explore Pokemon and enjoy looking at different Pokemon Art</p>
+    	
+        <section id="contact">
+          <h2>Contact Me</h2>
 
-					<p style="text-align: center;">
-						<a class="button" href="https://sparkly-pasca-2d7575.netlify.app/"target="_blank">I want to see</a>
-					</p>
-				</div>
-			</div>
+        <p>kewaunscain@gmail.com</p>
+        
+        <div class="social">
+          <a href="https://github.com/KewaunC"target="_blank"><i class="fa-brands fa-github"></i></a>
+          <a href="https://www.linkedin.com/in/kewaun-cain-0ba11114a/" target="_blank"><i class="fa-brands fa-linkedin"></i></i></a>
+        </div>
 
-			<div class="card">
-				<i class="fa-solid fa-temperature-half"></i>
-				<h5>Weather App</h5>
-				<div class="pra">
-					<p>Check out my Weather App</p>
+        <p class="end">&copy; Kewaun Cain 2024</p>
+        </section>
 
-					<p style="text-align: center;">
-						<a class="button" href="https://melodic-eclair-04cac9.netlify.app"target="_blank">Weather</a>
-					</p>
-				</div>
-			</div>
-
-			<div class="card">
-				<i class="fa-solid fa-dog"></i>
-				<h5>Need some Dopamine?</h5>
-				<div class="pra">
-					<p>Filter through these wonderful Dog Photos that will put a smile on your face </p>
-
-					<p style="text-align: center;">
-						<a class="button" href="https://dashing-puppy-ebe633.netlify.app"target="_blank">Doggies!</a>
-					</p>
-				</div>						
-			</div>
-
-			<div class="card">
-				<i class="fa-solid fa-building"></i>
-				<h5>Have a real estate business?</h5>
-				<div class="pra">
-					<p>Check out Broadway </p>
-
-					<p style="text-align: center;">
-						<a class="button" href="https://mellifluous-rugelach-a5241b.netlify.app/"target="_blank">Real Estate</a>
-					</p>
-				</div>				
-			</div>
-			<div class="card">
-				<i class="fa-solid fa-newspaper"></i>
-				<h5>Check out this article</h5>
-				<div class="pra">
-					<p>Do you need an article written? </p>
-
-					<p style="text-align: center;">
-						<a class="button" href="https://monumental-torrone-42d778.netlify.app/"target="_blank">Quick Read</a>
-					</p>
-				</div>				
-			</div>
-			<div class="card">
-				<i class="fa-solid fa-mug-hot"></i>
-				<h5>What's a Coffee Roast?</h5>
-				<div class="pra">
-					<p>Want to learn more about Coffee Roasting? </p>
-
-					<p style="text-align: center;">
-						<a class="button" href="https://reliable-pony-fc51fe.netlify.app/"target="_blank">Caffeine</a>
-					</p>
-				</div>				
-			</div>
-			<div class="card">
-				<i class="fa-solid fa-plane"></i>
-				<h5>Check out this airline</h5>
-				<div class="pra">
-					<p>Jetsetter Concierge would like to share more about how they are the perfect airline for you </p>
-
-					<p style="text-align: center;">
-						<a class="button" href="https://boisterous-paletas-6544a0.netlify.app/"target="_blank">Lets Fly!</a>
-					</p>
-				</div>				
-			</div>
-		
-		
-	</div>
-
-	<!------footer/contact me start--------->
-	<footer>
-		<p id="contact">Contact Me</p>
-		<p>kewaunscain@gmail.com</p>
-		
-		<div class="social">
-			<a href="https://github.com/KewaunC"target="_blank"><i class="fa-brands fa-github"></i></a>
-			<a href="https://twitter.com/KewaunCainDev"target="_blank"><i class="fa-brands fa-twitter"></i></a>
-			<a href="https://www.linkedin.com/in/kewaun-cain-0ba11114a/" target="_blank"><i class="fa-brands fa-linkedin"></i></i></a>
-		</div>
-		<p class="end">&copy; Kewaun Cain</p>
-	</footer>
+      <script src="script.js"></script>
 </body>
-
-<script src="script.js"></script>
 </html>
