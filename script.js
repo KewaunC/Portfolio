@@ -1,15 +1,19 @@
 document.addEventListener('DOMContentLoaded', function() {
-    // Disable text selection
+    
     document.addEventListener('selectstart', function(e) {
-        e.preventDefault();
+        if (!e.target.classList.contains('email')) {
+            e.preventDefault();
+        }
     });
     
-    // Disable right-click context menu
+
     document.addEventListener('contextmenu', function(e) {
-        e.preventDefault();
+        if (!e.target.classList.contains('email')) {
+            e.preventDefault();
+        }
     });
     
-    // Toggle menu
+    
     const menuToggle = document.querySelector('.menu-toggle');
     const menu = document.querySelector('.menu');
 
