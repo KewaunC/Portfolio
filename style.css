@@ -84,7 +84,9 @@ h2{
     margin-top: 30px;
     text-align: center;
 }
-
+a{
+    color: black;
+}
 .card-container {
     display: flex;
     flex-wrap: wrap;
@@ -129,7 +131,9 @@ h2{
     margin-top: 10px;
     color: #411f33;
 }
-
+#skills{
+    margin-top: 50px;
+}
 #contact p {
     text-align: center;
     color: #411f33;
