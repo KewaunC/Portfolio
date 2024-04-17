@@ -5,7 +5,8 @@
     scroll-behavior: smooth;
     scroll-padding: 3.5rem;
 }
-body{
+
+body {
     text-align: center;
 }
 
@@ -48,45 +49,51 @@ nav {
     color: #fff;
 }
 
-
-#aboutMe {
+#aboutMe,
+#portfolio,
+#certifications,
+#badges,
+#skills,
+#contact {
     text-align: center;
     margin: 0 auto; 
 }
-  
-  .container {
+
+.container {
     display: flex;
     align-items: center;
     justify-content: center;
     margin-top: 50px;
-  }
-  
-  .summary {
-    width: 60%; 
+}
+
+.summary {
+    width: 60%;
     margin: 10px auto;
-  }
+}
 
-  .summary p, h2 {
+.summary p,
+h2 {
     margin-bottom: 20px;   
-  }
-  
-  
-  .profile {
-    width: 30%; 
-	border-radius: 20px;
-    margin-right: 20px;
-  }
+}
 
-h2{
+.profile {
+    width: 30%; 
+    border-radius: 20px;
+    margin-right: 20px;
+}
+
+h2 {
     text-align: center;
 }
-#portfolio{
+
+#portfolio {
     margin-top: 30px;
-    text-align: center;
 }
-a{
+
+a {
     color: black;
 }
+
 .card-container {
     display: flex;
     flex-wrap: wrap;
@@ -102,24 +109,31 @@ a{
     overflow: hidden;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
     transition: box-shadow 0.3s ease-in-out;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
-.card:hover {
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+.card-content {
+    width: 100%;
+    padding: 10px;
 }
 
 .card img {
     width: 100%;
     height: auto;
     transition: transform 0.3s ease-in-out;
+    display: block;
+    margin: 0 auto;
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
 }
 
 .card:hover img {
     transform: scale(1.1);
-}
-
-.card-content {
-    padding: 10px;
 }
 
 .card-content i {
@@ -131,9 +145,11 @@ a{
     margin-top: 10px;
     color: #411f33;
 }
-#skills{
+
+#skills {
     margin-top: 50px;
 }
+
 #contact p {
     text-align: center;
     color: #411f33;
@@ -207,9 +223,9 @@ a{
         line-height: 30px;
     }
 
-	#aboutMe img{
-		max-width: 50%; 
-    	height: auto;
-    	width: auto;
-	}
+    #aboutMe img {
+        max-width: 50%; 
+        height: auto;
+        width: auto;
+    }
 }
